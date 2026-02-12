@@ -1,0 +1,42 @@
+[
+    {
+        "type": "item",
+        "id": "moldy-cheese",
+        "name": "Moldy Cheese",
+        "description": "+40% chance to poison enemies on hit.",
+        "rarity": "common",
+        "image": "images/items/moldy_cheese.png"
+    },
+    {
+        "type": "item",
+        "id": "timebracelet",
+        "name": "Time Bracelet",
+        "description": "+8% XP Gain.",
+        "rarity": "common",
+        "image": "images/items/timebracelet.png"
+    },
+    {
+        "type": "item",
+        "id": "creditcard_red",
+        "name": "Credit Card (Red)",
+        "description": "Permanently gain +2.5% Damage when opening a chest.",
+        "rarity": "rare",
+        "image": "images/items/credit_card_red.png"
+    },
+    {
+        "type": "item",
+        "id": "kevin",
+        "name": "Kevin",
+        "description": "25% chance to punch you on hit (cannot kill you). Triggers on-hit effects.",
+        "rarity": "epic",
+        "image": "images/items/kevin.png"
+    },
+    {
+        "type": "item",
+        "id": "overpoweredlamp",
+        "name": "Overpowered Lamp",
+        "description": "+1 chance to proc on-hit effects.",
+        "rarity": "legendary",
+        "image": "images/items/overpowered_lamp.png"
+    }
+]

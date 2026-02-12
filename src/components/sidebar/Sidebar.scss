@@ -1,0 +1,20 @@
+@use '../../styles/variables' as vars;
+
+.sidebar {
+	border-left: 2px solid vars.$border-color;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+	background-color: vars.$background;
+	text-align: center;
+
+	&.empty {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p {
+			font-style: italic;
+			color: #999;
+		}
+	}
+}
