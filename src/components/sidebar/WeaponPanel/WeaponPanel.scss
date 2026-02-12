@@ -1,0 +1,57 @@
+@use '../../../styles/variables' as vars;
+
+.sidebar {
+    .weapon-panel {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+	img {
+		image-rendering: pixelated;
+        user-select: none;
+		width: 100px;
+		height: 100px;
+		object-fit: contain;
+		margin-bottom: 0.5rem;
+	}
+
+	h2 {
+        font-size: 1.2rem;
+	}
+
+    h3 {
+        font-size: 1.05rem;
+    }
+
+	p {
+		font-size: 0.85rem;
+        line-height: 1.2rem;
+	}
+
+	.rarity {
+		margin: 0.3rem 0;
+		padding: 0.2rem 0.4rem;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		&.rarity-common {
+			color: limegreen;
+		}
+		&.rarity-rare {
+			color: lightskyblue;
+		}
+		&.rarity-epic {
+			color: #9c27b0;
+		}
+		&.rarity-legendary {
+			color: #ff9800;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "weapon",
+        "id": "firestaff",
+        "name": "Fire Staff",
+        "description": "Shoots fireballs that explode on impact.",
+        "weaponType": [
+            "projectile",
+            "area-of-effect"
+        ],
+        "scaling": [
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "specialEffect": "fire",
+        "image": "images/weapons/firestaff.png"
+    },
+    {
+        "type": "weapon",
+        "id": "dice",
+        "name": "Dice",
+        "description": "Throw dice that deal 1-6 damage. Rolling a 6 increases the weapons Crit Chance permanently.",
+        "weaponType": [
+            "projectile"
+        ],
+        "scaling": [
+            "damage",
+            "crit-chance",
+            "crit-damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "specialEffect": "Rolling a 6 permanently increases the Die's own Crit Chance by 0.5% for the rest of the run.",
+        "image": "images/weapons/dice.png"
+    }
+]

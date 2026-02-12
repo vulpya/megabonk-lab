@@ -1,4 +1,5 @@
 @use '../../styles/variables' as vars;
+@use 'sass:color';
 
 .sidebar {
 	border-left: 2px solid vars.$border-color;
@@ -7,6 +8,16 @@
 	top: 0;
 	background-color: vars.$background;
 	text-align: center;
+
+	p,
+	li,
+	span {
+		color: color.adjust(vars.$foreground, $lightness: -25%);
+	}
+
+	h3 {
+		color: color.adjust(vars.$foreground, $lightness: -5%);
+	}
 
 	&.empty {
 		display: flex;
