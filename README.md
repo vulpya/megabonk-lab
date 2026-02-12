@@ -9,4 +9,4 @@ Megabonk and all related names, logos, assets and game content are the property 
 
 This project is not affiliated with, endorsed by, or sponsored by the original developers or publishers. It is intended for informational and community purposes only.
 
-Special thanks to [https://www.isaacguru.com/](Isaac Guru) as this was the inspiration to create something similar for Megabonk.
+Special thanks to [Isaac Guru](https://www.isaacguru.com/) as this was the inspiration to create something similar for Megabonk.
