@@ -1,0 +1,195 @@
+[
+    {
+        "type": "tome",
+        "id": "agility_tome",
+        "name": "Agility Tome",
+        "description": "+Movement Speed - How fast you move.",
+        "base": "+15%",
+        "image": "images/tomes/agility_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "size_tome",
+        "name": "Size Tome",
+        "description": "+Size - The size of your attacks, projectiles, explosions and more.",
+        "base": "+10%",
+        "image": "images/tomes/size_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "silver_tome",
+        "name": "Silver Tome",
+        "description": "+Silver Gain - Gives you more silver from all sources.",
+        "base": "+12%",
+        "image": "images/tomes/silver_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "shield_tome",
+        "name": "Shield Tome",
+        "description": "+Shield - Shield takes damage instead of losing HP before it breaks. Shield regenerates quickly after not taking damage for a while.",
+        "base": "+25",
+        "image": "images/tomes/shield_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "regen_tome",
+        "name": "Regen Tome",
+        "description": "+HP Regen - The amount of HP you regenerate per minute.",
+        "base": "+40",
+        "image": "images/tomes/regen_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "projectile_speed_tome",
+        "name": "Projectile Speed Tome",
+        "description": "+Projectile Speed - The speed of your projectiles.",
+        "base": "+15%",
+        "image": "images/tomes/projectile_speed_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "precision_tome",
+        "name": "Precision Tome",
+        "description": "+Crit Chance - Chance to deal critical damage. More than 100% Crit Chance let's you Overcrit, dealing even more damage.",
+        "base": "+7%",
+        "image": "images/tomes/precision_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "knockback_tome",
+        "name": "Knockback Tome",
+        "description": "+Knockback - The distance you push enemies when hitting them.",
+        "base": "+20%",
+        "image": "images/tomes/knockback_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "hp_tome",
+        "name": "HP Tome",
+        "description": "+Max HP - Max HP",
+        "base": "+25",
+        "image": "images/tomes/hp_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "evasion_tome",
+        "name": "Evasion Tome",
+        "description": "+Evasion - Evasion is the chance to avoid an attack, taking no damage.",
+        "base": "+10%",
+        "image": "images/tomes/evasion_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "golden_tome",
+        "name": "Golden Tome",
+        "description": "+Gold Gain - Gives you more gold from all sources.",
+        "base": "+12%",
+        "image": "images/tomes/golden_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "damage_tome",
+        "name": "Damage Tome",
+        "description": "+Damage - Increases the damage of your attacks.",
+        "base": "+0.08x",
+        "image": "images/tomes/damage_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "cooldown_tome",
+        "name": "Cooldown Tome",
+        "description": "Reduces the cooldown between attacks, letting you shoot and strike faster.",
+        "base": "+7.5%",
+        "image": "images/tomes/cooldown_tome.png"
+    },
+    {
+        "type": "tome",
+        "id": "thorns_tome",
+        "name": "Thorns Tome",
+        "description": "+Thorns - Deal damage to enemies when they attack you.",
+        "base": "+15",
+        "image": "images/tomes/thorns_tome.png",
+        "unlock": "Block 250 attacks with the Aegis."
+    },
+    {
+        "type": "tome",
+        "id": "quantity_tome",
+        "name": "Quantity Tome",
+        "description": "+Projectile Count - Increases the number of attacks / projectiles",
+        "base": "+1",
+        "image": "images/tomes/quantity_tome.png",
+        "unlock": "Fire 5,000 projectiles."
+    },
+    {
+        "type": "tome",
+        "id": "bloody_tome",
+        "name": "Bloody Tome",
+        "description": "+Lifesteal - Your chance to heal for 1 when you hit an enemy. Over 100% will guarantee 1 heal and give a chance to heal for a total of 2.",
+        "base": "+10%",
+        "image": "images/tomes/bloody_tome.png",
+        "unlock": "Fire 5,000 projectiles."
+    },
+    {
+        "type": "tome",
+        "id": "attraction_tome",
+        "name": "Attraction Tome",
+        "description": "+Pickup Range - Pickup Range increases the distance from which you pick up xp.",
+        "base": "+75%",
+        "image": "images/tomes/attraction_tome.png",
+        "unlock": "Kill 12,500 enemies."
+    },
+    {
+        "type": "tome",
+        "id": "armor_tome",
+        "name": "Armor Tome",
+        "description": "Increases overall Armor, reducing incoming damage.",
+        "base": "+12%",
+        "image": "images/tomes/armor_tome.png",
+        "unlock": "Kill 5,000 enemies as Sir Oofie."
+    },
+    {
+        "type": "tome",
+        "id": "duration_tome",
+        "name": "Duration Tome",
+        "description": "+Duration - The duration of your attacks and projectiles.",
+        "base": "+15%",
+        "image": "images/tomes/duration_tome.png",
+        "unlock": "Upgrade the Axe to level 10 in a single run."
+    },
+    {
+        "type": "tome",
+        "id": "luck_tome",
+        "name": "Luck Tome",
+        "description": "+Luck - Luck increases your chances to get higher tier offers from leveling up, shrines and more.",
+        "base": "+7%",
+        "image": "images/tomes/luck_tome.png",
+        "unlock": "Has a 0.01% chance to drop when killing an enemy."
+    },
+    {
+        "type": "tome",
+        "id": "xp_tome",
+        "name": "XP Tome",
+        "description": "+XP Gain - Gives you more xp from all sources.",
+        "base": "+7%",
+        "image": "images/tomes/xp_tome.png",
+        "unlock": "Break 20 pots in a single run."
+    },
+    {
+        "type": "tome",
+        "id": "cursed_tome",
+        "name": "Cursed Tome",
+        "description": "+Difficulty - Difficulty increases enemy quantity, health, speed & strength.",
+        "base": "+3.5%",
+        "image": "images/tomes/cursed_tome.png",
+        "unlock": "Beat any Stage Boss in under 5 minutes."
+    },
+    {
+        "type": "tome",
+        "id": "chaos_tome",
+        "name": "Chaos Tome",
+        "description": "Boost a random stat.",
+        "image": "images/tomes/chaos_tome.png",
+        "unlock": "Charge all Charge Shrines on a Tier 3 run across all three stages without leaving the charge zone."
+    }
+]

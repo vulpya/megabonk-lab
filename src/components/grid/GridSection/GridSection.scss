@@ -1,0 +1,19 @@
+@use '../../../styles/variables' as vars;
+
+.grid-section {
+	margin-bottom: 2rem;
+    overflow: none;
+
+	h2 {
+		margin-bottom: 0.5rem;
+		font-size: 1.2rem;
+		border-bottom: 1px solid vars.$border-color;
+		padding-bottom: 0.2rem;
+	}
+
+	.entries {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 50px);
+		column-gap: 27px;
+	}
+}

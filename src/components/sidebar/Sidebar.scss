@@ -1,0 +1,31 @@
+@use '../../styles/variables' as vars;
+@use 'sass:color';
+
+.sidebar {
+	border-left: 2px solid vars.$border-color;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+	background-color: vars.$background;
+	text-align: center;
+
+	p,
+	li,
+	span {
+		color: color.adjust(vars.$foreground, $lightness: -25%);
+	}
+
+	h3 {
+		color: color.adjust(vars.$foreground, $lightness: -5%);
+	}
+
+	&.empty {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p {
+			font-style: italic;
+			color: #999;
+		}
+	}
+}

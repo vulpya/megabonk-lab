@@ -1,0 +1,453 @@
+[
+    {
+        "type": "weapon",
+        "id": "flamewalker",
+        "name": "Flamewalker",
+        "description": "Leaves a trail of fire behind you.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "projectile-count",
+            "size"
+        ],
+        "specialEffect": "fire",
+        "image": "images/weapons/flamewalker.png"
+    },
+    {
+        "type": "weapon",
+        "id": "sword",
+        "name": "Sword",
+        "description": "Slashes through multiple enemies.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "knockback",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/sword.png"
+    },
+    {
+        "type": "weapon",
+        "id": "lightning_staff",
+        "name": "Lightning Staff",
+        "description": "Summons lightning to smite nearby enemies",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-bounces",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/lightning_staff.png"
+    },
+    {
+        "type": "weapon",
+        "id": "firestaff",
+        "name": "Fire Staff",
+        "description": "Shoots fireballs that explode on impact.",
+        "scaling": [
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "specialEffect": "fire",
+        "image": "images/weapons/firestaff.png"
+    },
+    {
+        "type": "weapon",
+        "id": "chunkers",
+        "name": "Chunkers",
+        "description": "Summons chunky rocks that orbit around you",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "knockback",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/chunkers.png"
+    },
+    {
+        "type": "weapon",
+        "id": "bone",
+        "name": "Bone",
+        "description": "Throws bones that bounce off enemies.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "crit-damage",
+            "damage",
+            "projectile-bounces",
+            "projectile-count",
+            "projectile-speed"
+        ],
+        "image": "images/weapons/bone.png"
+    },
+    {
+        "type": "weapon",
+        "id": "bow",
+        "name": "bow",
+        "description": "Shoots arrows that pierce enemies.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "crit-damage",
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/bow.png"
+    },
+    {
+        "type": "weapon",
+        "id": "revolver",
+        "name": "Revolver",
+        "description": "Fires multiple bullets at enemies.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "crit-damage",
+            "damage",
+            "projectile-bounces",
+            "projectile-count",
+            "projectile-speed"
+        ],
+        "image": "images/weapons/revolver.png",
+        "unlock": "Kill 7,500 enemies."
+    },
+    {
+        "type": "weapon",
+        "id": "aegis",
+        "name": "Aegis",
+        "description": "Blocks incoming attacks and sends out shockwaves.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "knockback",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/aegis.png",
+        "unlock": "Block 500 damage with Armor as Sir Oofie."
+    },
+    {
+        "type": "weapon",
+        "id": "aura",
+        "name": "Aura",
+        "description": "Damage enemies in an area around you.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "size"
+        ],
+        "image": "images/weapons/aura.png",
+        "unlock": "Don't take any damage for 2 consecutive minutes."
+    },
+    {
+        "type": "weapon",
+        "id": "axe",
+        "name": "Axe",
+        "description": "Throws spinning axes that deal area damage.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/axe.png",
+        "unlock": "Kill 2,000 enemies using the Sword."
+    },
+    {
+        "type": "weapon",
+        "id": "bananarang",
+        "name": "Bananarang",
+        "description": "Throws bananas that return to the owner.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/bananarang.png",
+        "unlock": "Find the hidden banana in Forest."
+    },
+    {
+        "type": "weapon",
+        "id": "mines",
+        "name": "Mines",
+        "description": "Deploys mines around you that explode when enemies get close.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/mines.png",
+        "unlock": "Kill 7,500 enemies with the Slutty Rocket."
+    },
+    {
+        "type": "weapon",
+        "id": "space_noodle",
+        "name": "Space Noodle",
+        "description": "Attaches to a nearby enemy. Deals damage to enemies in-between",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "size"
+        ],
+        "image": "images/weapons/space_noodle.png",
+        "unlock": "Complete Desert Tier 2 as Tony McZoom."
+    },
+    {
+        "type": "weapon",
+        "id": "sniper_rifle",
+        "name": "Sniper Rifle",
+        "description": "Fires piercing bullets. Can be manually aimed",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/sniper_rifle.png",
+        "unlock": "Get the Precision Tome to Level 10."
+    },
+    {
+        "type": "weapon",
+        "id": "slutty_rocket",
+        "name": "Slutty Rocket",
+        "description": "Fires homing missiles.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "damage",
+            "projectile-count",
+            "projectile-speed"
+        ],
+        "image": "images/weapons/slutty_rocket.png",
+        "unlock": "Kill 15,000 enemies as CL4NK."
+    },
+    {
+        "type": "weapon",
+        "id": "shotgun",
+        "name": "Shotgun",
+        "description": "Fires a spread shot, stronger at close range. Can be manually aimed.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "crit-damage",
+            "damage",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/shotgun.png",
+        "unlock": "5% drop chance from breaking a Tumbleweed on Desert Tier 2."
+    },
+    {
+        "type": "weapon",
+        "id": "wireless_dagger",
+        "name": "Wireless Dagger",
+        "description": "Throw smart dagger at your enemies. Wireless tech goes crazy these days.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-bounces",
+            "projectile-count",
+            "projectile-speed"
+        ],
+        "image": "images/weapons/wireless_dagger.png",
+        "unlock": "Get the Lightning Staff to Level 15. "
+    },
+    {
+        "type": "weapon",
+        "id": "frostwalker",
+        "name": "Frostwalker",
+        "description": "Freezes and damages enemies in an area around you.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "size"
+        ],
+        "image": "images/weapons/frostwalker.png",
+        "unlock": "Freeze 1,000 enemies with the Ice Cube item."
+    },
+    {
+        "type": "weapon",
+        "id": "tornado",
+        "name": "Tornado",
+        "description": "Sends out tornadoes, knocking enemies back.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "knockback",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/tornado.png",
+        "unlock": "Charge a Charge Shrine during a Sandstorm on any Desert stage."
+    },
+    {
+        "type": "weapon",
+        "id": "dexecutioner",
+        "name": "Dexecutioner",
+        "description": "A piercing blade. Small chance to instantly execute an enemy.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "damage",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/dexecutioner.png",
+        "unlock": "Kill 12,500 enemies using the Sword."
+    },
+    {
+        "type": "weapon",
+        "id": "blood_magic",
+        "name": "Blood Magic",
+        "description": "Summons blood magic. 5% chance to increase Max HP upon killing enemies.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/blood_magic.png",
+        "unlock": "Get the Bloody Tome to Level 12."
+    },
+    {
+        "type": "weapon",
+        "id": "black_hole",
+        "name": "Black Hole",
+        "description": "Shoots a black hole that pulls enemies in.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/black_hole.png",
+        "unlock": "Get the Knockback Tome to Level 10."
+    },
+    {
+        "type": "weapon",
+        "id": "poison_flask",
+        "name": "Poison Flask",
+        "description": "Throws toxic flasks at enemies, dealing area damage and poisoning them.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/poison_flask.png",
+        "unlock": "Kill Scorpionussy in the Desert 3 times."
+    },
+    {
+        "type": "weapon",
+        "id": "katana",
+        "name": "Katana",
+        "description": "A sharp blade that targets the closest enemy.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "crit-damage",
+            "damage",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/katana.png",
+        "unlock": "5% drop chance from breaking a Tumbleweed on Desert Stage 1."
+    },
+    {
+        "type": "weapon",
+        "id": "dragons_breath",
+        "name": "Dragon's Breath",
+        "description": "Fires a fierce dragon's breath in a cone towards nearby enemies.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "duration",
+            "size"
+        ],
+        "image": "images/weapons/dragons_breath.png",
+        "unlock": "Kill 1,000 Wisps as Fox on the Desert map."
+    },
+    {
+        "type": "weapon",
+        "id": "dice",
+        "name": "Dice",
+        "description": "Throw dice that deal 1-6 damage. Rolling a 6 increases the weapons Crit Chance permanently.",
+        "scaling": [
+            "attack-speed",
+            "crit-chance",
+            "crit-damage",
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "specialEffect": "Rolling a 6 permanently increases the Die's own Crit Chance by 0.5% for the rest of the run.",
+        "image": "images/weapons/dice.png",
+        "unlock": "Get the Luck Tome to Level 12."
+    },
+    {
+        "type": "weapon",
+        "id": "hero_sword",
+        "name": "Hero Sword",
+        "description": "Slashes through multiple enemies and fires a slashing projectile.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/hero_sword.png",
+        "unlock": "Defeat a Stage Boss without picking up any items, powerups, or using shrines."
+    },
+    {
+        "type": "weapon",
+        "id": "corrupted_sword",
+        "name": "Corrupted Sword",
+        "description": "Slashes in both directions. Deals increased damage at low HP.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "projectile-count",
+            "projectile-speed",
+            "size"
+        ],
+        "image": "images/weapons/corrupted_sword.png",
+        "unlock": "Get the Cursed Tome to Level 20 in under 10 minutes."
+    },
+    {
+        "type": "weapon",
+        "id": "scythe",
+        "name": "Scythe",
+        "description": "Slash in a circle around you. Killing Elite Enemies charges a stronger attack.",
+        "scaling": [
+            "attack-speed",
+            "damage",
+            "knockback",
+            "projectile-count",
+            "size"
+        ],
+        "image": "images/weapons/scythe.png",
+        "unlock": "Kill Big Bob on Graveyard."
+    }
+]
