@@ -16,6 +16,8 @@ interface Props {
 }
 
 const GridSection = ({ title, entries, setHovered, setLocked }: Props) => {
+	if (entries.length < 1) return <></>;
+
 	return (
 		<section className="grid-section">
 			<h2>{title}</h2>

@@ -7,7 +7,7 @@ interface Props {
 	character: Character;
 	weapon: Weapon | undefined;
 }
-
+// TODO: Add unlock conditions
 const CharacterPanel = ({ character, weapon }: Props) => {
 	return (
 		<div className="character-panel">

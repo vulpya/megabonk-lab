@@ -17,26 +17,12 @@ const WeaponPanel = ({ weapon }: Props) => {
 				draggable={false}
 			/>
 			<p>{weapon.description}</p>
-			<h3>Type</h3>
-			<ul className="weapon-types-container">
-				{weapon.weaponType.map((type) => {
-					return <li>{kebabToTitleCase(type)}</li>;
-				})}
-			</ul>
 			<h3>Scales with</h3>
 			<ul className="weapon-types-container">
 				{weapon.scaling.map((scaling) => {
 					return <li>{kebabToTitleCase(scaling)}</li>;
 				})}
 			</ul>
-			{weapon.specialEffect && (
-				<>
-					<h3>Special Effect</h3>
-					<ul>
-						<li>{kebabToTitleCase(weapon.specialEffect)}</li>
-					</ul>
-				</>
-			)}
 		</div>
 	);
 };

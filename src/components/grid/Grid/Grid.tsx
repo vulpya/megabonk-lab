@@ -2,6 +2,8 @@ import type { Entry } from '../../../types/Entry';
 import type { Section } from '../GridSection/GridSection';
 import GridSection from '../GridSection/GridSection';
 
+import './Grid.scss';
+
 interface Props {
 	sections: Section[];
 	hoveredEntry: Entry | null;
@@ -19,7 +21,7 @@ const Grid = ({ sections, setHovered, setLocked }: Props) => {
 					title={section.title}
 					entries={section.entries}
 					setHovered={setHovered}
-                    setLocked={setLocked}
+					setLocked={setLocked}
 				/>
 			))}
 		</div>

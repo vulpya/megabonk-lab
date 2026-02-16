@@ -1,15 +1,16 @@
 import { useMemo, useState } from 'react';
+import type { Entry } from '../../../types/Entry';
+
+import { loadCharacters } from '../../../data/loader/characterLoader';
+import { loadItems } from '../../../data/loader/itemLoader';
+import { loadTomes } from '../../../data/loader/tomeLoader';
+import { loadWeapons } from '../../../data/loader/weaponLoader';
 
 import Grid from '../../grid/Grid/Grid';
-
-import './Home.scss';
-import type { Entry } from '../../../types/Entry';
-import { loadItems } from '../../data/loader/itemLoader';
 import Sidebar from '../../sidebar/Sidebar';
 import SearchBar from '../../search/SearchBar';
-import { loadCharacters } from '../../data/loader/characterLoader';
-import { loadWeapons } from '../../data/loader/weaponLoader';
-import { loadTomes } from '../../data/loader/tomeLoader';
+
+import './Home.scss';
 
 const Home = () => {
 	const [hoveredEntry, setHovered] = useState<Entry | null>(null);
@@ -17,7 +18,6 @@ const Home = () => {
 
 	const [search, setSearch] = useState('');
 
-	// Load data
 	const items = useMemo(() => loadItems(), []);
 	const characters = useMemo(() => loadCharacters(), []);
 	const weapons = useMemo(() => loadWeapons(), []);
@@ -62,10 +62,22 @@ const Home = () => {
 				<SearchBar search={search} setSearch={setSearch} />
 				<Grid
 					sections={[
-						{ title: 'Items', entries: filteredItems },
-						{ title: 'Weapons', entries: filteredWeapons },
-						{ title: 'Tomes', entries: filteredTomes },
-						{ title: 'Characters', entries: filteredCharacters }
+						{
+							title: `Items (${filteredItems.length.toString()})`,
+							entries: filteredItems
+						},
+						{
+							title: `Weapons (${filteredWeapons.length.toString()})`,
+							entries: filteredWeapons
+						},
+						{
+							title: `Tomes (${filteredTomes.length.toString()})`,
+							entries: filteredTomes
+						},
+						{
+							title: `Characters (${filteredCharacters.length.toString()})`,
+							entries: filteredCharacters
+						}
 					]}
 					hoveredEntry={hoveredEntry}
 					setHovered={setHovered}

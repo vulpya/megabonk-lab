@@ -11,7 +11,7 @@ const SearchBar = ({ search, setSearch }: Props) => {
 			<div className="search-bar">
 				<input
 					type="text"
-					placeholder="Search all entries..."
+					placeholder="Search items, weapons, tomes or characters."
 					value={search}
 					onChange={(e) => {
 						setSearch(e.target.value);

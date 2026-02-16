@@ -1,3 +1,5 @@
 import type { Entry } from "./Entry";
 
-export type Tome = Entry
+export interface Tome extends Entry {
+    base?: string;
+}

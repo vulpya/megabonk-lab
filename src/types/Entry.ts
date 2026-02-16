@@ -6,4 +6,5 @@ export interface Entry {
     name: string;
     description: string;
     image: string;
+    unlock?: string;
 }

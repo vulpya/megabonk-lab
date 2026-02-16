@@ -1,0 +1,273 @@
+[
+    {
+        "type": "character",
+        "id": "fox",
+        "name": "Fox",
+        "weapon": "firestaff",
+        "description": "Quick on his feet and unnaturally lucky.",
+        "passive": {
+            "name": "RNG Blessing",
+            "description": "Gain 1.5% Luck per level."
+        },
+        "image": "images/characters/fox.png"
+    },
+    {
+        "type": "character",
+        "id": "siroofie",
+        "name": "Sir Oofie",
+        "weapon": "sword",
+        "description": "He's slow, but his armor makes him pretty chunky.",
+        "passive": {
+            "name": "Reinforced",
+            "description": "Gain 1% Armor per level."
+        },
+        "image": "images/characters/siroofie.png"
+    },
+    {
+        "type": "character",
+        "id": "calcium",
+        "name": "Calcium",
+        "weapon": "bone",
+        "description": "An undead shredder who pulls of the sickest tricks.",
+        "passive": {
+            "name": "Speed Demon",
+            "description": "Speed builds up over time, but is halved when you take damage. Also gain damage based on speed."
+        },
+        "image": "images/characters/calcium.png",
+        "unlock": "Kill 1,000 Skeletons."
+    },
+    {
+        "type": "character",
+        "id": "megachad",
+        "name": "Megachad",
+        "weapon": "aura",
+        "description": "He wields the perfect, most powerful jawline.",
+        "passive": {
+            "name": "Flex",
+            "description": "Flex to stop damage. Cooldown -0.2s per level. Gain 2.5% Damage when flexing."
+        },
+        "image": "images/characters/megachad.png",
+        "unlock": "Get the Damage Tome to level 7."
+    },
+    {
+        "type": "character",
+        "id": "ogre",
+        "name": "Ogre",
+        "weapon": "axe",
+        "description": "Big and strong, with the critical thinking skills of a wet sock.",
+        "passive": {
+            "name": "Warrior",
+            "description": "Gain 1.5% Damage per level."
+        },
+        "image": "images/characters/ogre.png",
+        "unlock": "Kill 15,000 Goblins."
+    },
+    {
+        "type": "character",
+        "id": "cl4nk",
+        "name": "CL4NK",
+        "weapon": "revolver",
+        "description": "I don't know how to pronounce his name.",
+        "passive": {
+            "name": "Crit Happens",
+            "description": "Gain 1% Crit Chance per level."
+        },
+        "image": "images/characters/cl4nk.png",
+        "unlock": "Complete Forest Tier 1."
+    },
+    {
+        "type": "character",
+        "id": "athena",
+        "name": "Athena",
+        "weapon": "aegis",
+        "description": "Captain America but ordered from Temu. (with a 23% discount)",
+        "passive": {
+            "name": "Lock in",
+            "description": "Deal more damage on lower HP. Gain 2 Thorns per level."
+        },
+        "image": "images/characters/athena.png",
+        "unlock": "Get the Thorns Tome to level 9."
+    },
+    {
+        "type": "character",
+        "id": "robinette",
+        "name": "Robinette",
+        "weapon": "bow",
+        "description": "Steals from the poor, gives to the rich.",
+        "passive": {
+            "name": "Stonks",
+            "description": "Gain 1% Gold Gain per level. Also increase Damage slightly by total Gold in inventory."
+        },
+        "image": "images/characters/robinette.png",
+        "unlock": "Complete Forest Tier 2."
+    },
+    {
+        "type": "character",
+        "id": "monke",
+        "name": "Monke",
+        "weapon": "bananarang",
+        "description": "No one knows where he got the shades. No one asks.",
+        "passive": {
+            "name": "Monke Grip",
+            "description": "Climp up walls. Also gain +2 Max HP per level."
+        },
+        "image": "images/characters/monke.png",
+        "unlock": "Find and release Monke in the Forest."
+    },
+    {
+        "type": "character",
+        "id": "tonymczoom",
+        "name": "Tony McZoom",
+        "weapon": "wireless_dagger",
+        "description": "Tony didn't choose the hoverboard - the hoverboard chose him.",
+        "passive": {
+            "name": "Zap",
+            "description": "Charge an electric attack by moving around. Gain 2% Pickup Range per level."
+        },
+        "image": "images/characters/tonymczoom.png",
+        "unlock": "Complete 2 Challenges."
+    },
+    {
+        "type": "character",
+        "id": "bush",
+        "name": "Bush",
+        "weapon": "sniper_rifle",
+        "description": "Just a normal bush, nothing to see here.",
+        "passive": {
+            "name": "Bullseye",
+            "description": "Random enemies are marked. Also gain 1% Crit Damage per level."
+        },
+        "image": "images/characters/bush.png",
+        "unlock": "Find and defeat Bush in the Forest."
+    },
+    {
+        "type": "character",
+        "id": "birdo",
+        "name": "Birdo",
+        "weapon": "tornado",
+        "description": "The glasses are for your safety, not his.",
+        "passive": {
+            "name": "Float",
+            "description": "Hold \"Jump\" to float in the air. Also gain 1% Airborne Damage per level."
+        },
+        "image": "images/characters/birdo.png",
+        "unlock": "Kill 100 enemies using Tornado weapon while carried by a tornado on Desert."
+    },
+    {
+        "type": "character",
+        "id": "noelle",
+        "name": "Noelle",
+        "weapon": "frostwalker",
+        "description": "The Megabonk Discord bullied me into creating this character.",
+        "passive": {
+            "name": "Enduring",
+            "description": "Gain 0.75% Size per level. Also increase Damage per currently frozen enemy."
+        },
+        "image": "images/characters/noelle.png",
+        "unlock": "Use a Microwave to duplicate Ice Crystal 3 times in a row."
+    },
+    {
+        "type": "character",
+        "id": "amog",
+        "name": "Amog",
+        "weapon": "poison_flask",
+        "description": "No one knows his real name. Everyone just started calling him Amog, and he never corrected them.",
+        "passive": {
+            "name": "Plague",
+            "description": "Poisoned enemies explode on death, poisoning nearby enemies. Also gain 1% Poison Damage per level."
+        },
+        "image": "images/characters/amog.png",
+        "unlock": "Poison 50,000 enemies with Moldy Cheese."
+    },
+    {
+        "type": "character",
+        "id": "spaceman",
+        "name": "Spaceman",
+        "weapon": "black_hole",
+        "description": "Spaceman is currently banned from 7 planets and most NASA gift shops.",
+        "passive": {
+            "name": "Quantum XP Theory",
+            "description": "Gain 1% XP Gain per level."
+        },
+        "image": "images/characters/spaceman.png",
+        "unlock": "Complete 6 Challenges"
+    },
+    {
+        "type": "character",
+        "id": "bandit",
+        "name": "Bandit",
+        "weapon": "dexecutioner",
+        "description": "A sneaky lad with a sharp sword.",
+        "passive": {
+            "name": "Flowstate",
+            "description": "Gain 1% Attack Speed per level."
+        },
+        "image": "images/characters/bandit.png",
+        "unlock": "Find and defeat Bandit in the Desert."
+    },
+    {
+        "type": "character",
+        "id": "ninja",
+        "name": "Ninja",
+        "weapon": "katana",
+        "description": "Very fast and elusive. Hasn't filed his taxes since 2014. He's cooked.",
+        "passive": {
+            "name": "Shadowstep",
+            "description": "Execute an enemy upon evading them. Also gain 0.5% Evasion per level."
+        },
+        "image": "images/characters/ninja.png",
+        "unlock": "Complete Desert Tier 1."
+    },
+    {
+        "type": "character",
+        "id": "vlad",
+        "name": "Vlad",
+        "weapon": "blood_magic",
+        "description": "He looks pretty evil but he's actually a really nice dude. He always says hi at the grocery store. Chill guy.",
+        "passive": {
+            "name": "Vampire",
+            "description": "Gain 1% Lifesteal per level."
+        },
+        "image": "images/characters/vlad.png",
+        "unlock": "Complete Desert Tier 2."
+    },
+    {
+        "type": "character",
+        "id": "sirchadwell",
+        "name": "Sir Chadwell",
+        "weapon": "corrupted_sword",
+        "description": "Sir Oofie's wife's boyfriend. Bought him new armor and lets him stay up past 8:30. Nice guy!",
+        "passive": {
+            "name": "Curse",
+            "description": "Gain 1% Difficulty per level."
+        },
+        "image": "images/characters/sirchadwell.png",
+        "unlock": "Complete Forest Tier 3."
+    },
+    {
+        "type": "character",
+        "id": "dicehead",
+        "name": "Dice Head",
+        "weapon": "dice",
+        "description": "His favorite number is 7. Who's gonna tell him the bad news?",
+        "passive": {
+            "name": "Gamba",
+            "description": "Roll the dice and upgrade a random stat when you level up!"
+        },
+        "image": "images/characters/dicehead.png",
+        "unlock": "Complete 100 Quests and get the Dice."
+    },
+    {
+        "type": "character",
+        "id": "roberto",
+        "name": "Roberto",
+        "weapon": "scythe",
+        "description": "He claims to be floating. Scientists and experts are still investigating.",
+        "passive": {
+            "name": "Hoarder",
+            "description": "Free chest ervery 60s, increasing to 120s over levels. He can also float (a little)."
+        },
+        "image": "images/characters/roberto.png",
+        "unlock": "Kill Spooky Steve."
+    }
+]

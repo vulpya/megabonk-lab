@@ -16,6 +16,7 @@ const TomePanel = ({ tome }: Props) => {
 				draggable={false}
 			/>
 			<p>{tome.description}</p>
+			<h3>Base: {tome.base}</h3>
 		</div>
 	);
 };

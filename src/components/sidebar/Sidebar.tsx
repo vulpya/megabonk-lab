@@ -2,7 +2,8 @@ import type { Character } from '../../types/Character';
 import type { Entry } from '../../types/Entry';
 import type { Item } from '../../types/Item';
 import type { Weapon } from '../../types/Weapon';
-import { loadWeapons } from '../data/loader/weaponLoader';
+
+import { loadWeapons } from '../../data/loader/weaponLoader';
 
 import ItemPanel from './ItemPanel/ItemPanel';
 import CharacterPanel from './CharacterPanel/CharacterPanel';
@@ -10,6 +11,7 @@ import WeaponPanel from './WeaponPanel/WeaponPanel';
 import TomePanel from './TomePanel/TomePanel';
 
 import './Sidebar.scss';
+import type { Tome } from '../../types/Tome';
 
 interface Props {
 	entry: Entry | null;
@@ -47,7 +49,7 @@ const Sidebar = ({ entry }: Props) => {
 				<WeaponPanel weapon={entry as Weapon} />
 			)}
 			{'type' in entry && entry.type === 'tome' && (
-				<TomePanel tome={entry} />
+				<TomePanel tome={entry as Tome} />
 			)}
 		</aside>
 	);

@@ -1,0 +1,706 @@
+[
+    {
+        "type": "item",
+        "id": "borgar",
+        "name": "Borgar",
+        "description": "+2% chance to spawn Borgar upon killing an enemy.",
+        "rarity": "common",
+        "image": "images/items/borgar.png"
+    },
+    {
+        "type": "item",
+        "id": "wrench",
+        "name": "Wrench",
+        "description": "Charge Shrines 4% faster and gain 7.5% increased rewards.",
+        "rarity": "common",
+        "image": "images/items/wrench.png"
+    },
+    {
+        "type": "item",
+        "id": "time_bracelet",
+        "name": "Time Bracelet",
+        "description": "+8% XP Gain. Definitely not just a normal watch.",
+        "rarity": "common",
+        "image": "images/items/time_bracelet.png"
+    },
+    {
+        "type": "item",
+        "id": "clover",
+        "name": "Clover",
+        "description": "Increase Luck by +10%",
+        "rarity": "common",
+        "image": "images/items/clover.png"
+    },
+    {
+        "type": "item",
+        "id": "slippery_ring",
+        "name": "Slippery Ring",
+        "description": "Increase Evasion by +15%",
+        "rarity": "common",
+        "image": "images/items/slippery_ring.png"
+    },
+    {
+        "type": "item",
+        "id": "oats",
+        "name": "Oats",
+        "description": "Increase Max HP by +25",
+        "rarity": "common",
+        "image": "images/items/oats.png"
+    },
+    {
+        "type": "item",
+        "id": "golden_glove",
+        "name": "Golden Glove",
+        "description": "Earn +15% more gold from killing enemies",
+        "rarity": "common",
+        "image": "images/items/golden_glove.png"
+    },
+    {
+        "type": "item",
+        "id": "gym_sauce",
+        "name": "Gym Sauce",
+        "description": "Increase Damage by +10%",
+        "rarity": "common",
+        "image": "images/items/gym_sauce.png"
+    },
+    {
+        "type": "item",
+        "id": "moldy_cheese",
+        "name": "Moldy Cheese",
+        "description": "+40% chance to poison enemies on hit. Moldy Cheese my beloved <3",
+        "rarity": "common",
+        "image": "images/items/moldy_cheese.png"
+    },
+    {
+        "type": "item",
+        "id": "medkit",
+        "name": "Medkit",
+        "description": "Increase HP Regen by +45",
+        "rarity": "common",
+        "image": "images/items/medkit.png"
+    },
+    {
+        "type": "item",
+        "id": "battery",
+        "name": "Battery",
+        "description": "Increase Attack Speed by +8%",
+        "rarity": "common",
+        "image": "images/items/battery.png",
+        "unlock": "Upgrade Cooldown Tome to Level 5."
+    },
+    {
+        "type": "item",
+        "id": "tactical_glasses",
+        "name": "Tactical Glasses",
+        "description": "+20% more damage to enemies above 90% HP.",
+        "rarity": "common",
+        "image": "images/items/tactical_glasses.png",
+        "unlock": "Defeat a Miniboss in under 25 seconds."
+    },
+    {
+        "type": "item",
+        "id": "turbo_socks",
+        "name": "Turbo Socks",
+        "description": "Increase Movement Speed by +15%.",
+        "rarity": "common",
+        "image": "images/items/turbo_socks.png",
+        "unlock": "Upgrade Agility Tome to Level 5."
+    },
+    {
+        "type": "item",
+        "id": "forbidden_juice",
+        "name": "Forbidden Juice",
+        "description": "Increase Crit Chance by +10%",
+        "rarity": "common",
+        "image": "images/items/forbidden_juice.png",
+        "unlock": "Crit 100 times in a single run."
+    },
+    {
+        "type": "item",
+        "id": "cursed_doll",
+        "name": "Cursed Doll",
+        "description": "Curse an enemy, dealing 30% of their Max HP every second.",
+        "rarity": "common",
+        "image": "images/items/cursed_doll.png",
+        "unlock": "Die 10 times."
+    },
+    {
+        "type": "item",
+        "id": "boss_buster",
+        "name": "Boss Buster",
+        "description": "+15% more damage to Elites and Bosses.",
+        "rarity": "common",
+        "image": "images/items/boss_buster.png",
+        "unlock": "Defeat a Stage Boss in under 30 seconds."
+    },
+    {
+        "type": "item",
+        "id": "key",
+        "name": "Key",
+        "description": "+10% chance to open chests for free.",
+        "rarity": "common",
+        "image": "images/items/key.png",
+        "unlock": "Purchase items from 25 chests."
+    },
+    {
+        "type": "item",
+        "id": "ice_crystal",
+        "name": "Ice Crystal",
+        "description": "7.5% chance to freeze enemies upon hitting them.",
+        "rarity": "common",
+        "image": "images/items/ice_crystal.png",
+        "unlock": "Get 50 kills with the Frostwalker weapon."
+    },
+    {
+        "type": "item",
+        "id": "ghost",
+        "name": "Ghost",
+        "description": "Using an interactable summons ghosts",
+        "rarity": "common",
+        "image": "images/items/ghost.png",
+        "unlock": "Survive the Final Swarm for 60 seconds."
+    },
+    {
+        "type": "item",
+        "id": "old_mask",
+        "name": "Old Mask",
+        "description": "Increase Elite Spawn Increase by +15%.",
+        "rarity": "common",
+        "image": "images/items/old_mask.png",
+        "unlock": "Find on Graveyard"
+    },
+    {
+        "type": "item",
+        "id": "skuleg",
+        "name": "Skuleg",
+        "description": "Increase Difficulty by +7%",
+        "rarity": "common",
+        "image": "images/items/skuleg.png",
+        "unlock": "Obtain a total of 40% Difficulty in a single run."
+    },
+    {
+        "type": "item",
+        "id": "cactus",
+        "name": "Cactus",
+        "description": "Shoots out spikes upon taking damage. Damage scales with Thorns.",
+        "rarity": "common",
+        "image": "images/items/cactus.png",
+        "unlock": "Kill 100 cactus enemies with Thorns damage."
+    },
+    {
+        "type": "item",
+        "id": "golden_shield",
+        "name": "Golden Shield",
+        "description": "Get extra gold when taking damage.",
+        "rarity": "rare",
+        "image": "images/items/golden_shield.png"
+    },
+    {
+        "type": "item",
+        "id": "thunder_mitts",
+        "name": "Thunder Mitts",
+        "description": "Upon hitting an enemy, clap their cheeks so hard it generates a lightning strike. (10s cooldown)",
+        "rarity": "rare",
+        "image": "images/items/thunder_mitts.png"
+    },
+    {
+        "type": "item",
+        "id": "feathers",
+        "name": "Feathers",
+        "description": "Jump higher and further. Also gain +1 Extra Jumps",
+        "rarity": "rare",
+        "image": "images/items/feathers.png"
+    },
+    {
+        "type": "item",
+        "id": "electric_plug",
+        "name": "Electric Plug",
+        "description": "Upon taking damage, send out an electric shock to nearby enemies.",
+        "rarity": "rare",
+        "image": "images/items/electric_plug.png"
+    },
+    {
+        "type": "item",
+        "id": "creditcard_red",
+        "name": "Credit Card (Red)",
+        "description": "Increase Damage by +2.5% when opening a chest.",
+        "rarity": "rare",
+        "image": "images/items/credit_card_red.png"
+    },
+    {
+        "type": "item",
+        "id": "cowards_cloak",
+        "name": "Cowards Cloak",
+        "description": "Boost Movement Speed upon taking damage. Also gain +5% Movement Speed",
+        "rarity": "rare",
+        "image": "images/items/cowards_cloak.png"
+    },
+    {
+        "type": "item",
+        "id": "campfire",
+        "name": "Campfire",
+        "description": "Standing still heals you",
+        "rarity": "rare",
+        "image": "images/items/campfire.png"
+    },
+    {
+        "type": "item",
+        "id": "beer",
+        "name": "Beer",
+        "description": "+20% Damage at the cost of -5% Max HP.",
+        "rarity": "rare",
+        "image": "images/items/beer.png"
+    },
+    {
+        "type": "item",
+        "id": "unstable_transfusion",
+        "name": "Unstable Transfusion",
+        "description": "+35% chance to apply a stack of Bloodmark when hitting an enemy.",
+        "rarity": "rare",
+        "image": "images/items/unstable_transfusion.png"
+    },
+    {
+        "type": "item",
+        "id": "phantom_shroud",
+        "name": "Phantom Shroud",
+        "description": "After evading, deal 2x damage next attack and temporarily increase Attack Speed and Movement Speed.",
+        "rarity": "rare",
+        "image": "images/items/phantom_shroud.png"
+    },
+    {
+        "type": "item",
+        "id": "demonic_blade",
+        "name": "Demonic Blade",
+        "description": "Crits have a +25% chance to heal you.",
+        "rarity": "rare",
+        "image": "images/items/demonic_blade.png",
+        "unlock": "Heal for 350 HP using Lifesteal."
+    },
+    {
+        "type": "item",
+        "id": "demonic_blood",
+        "name": "Demonic Blood",
+        "description": "Increase Map HP by +0.5 per kill (Max 200 stacks).",
+        "rarity": "rare",
+        "image": "images/items/demonic_blood.png",
+        "unlock": "Increase your Max HP with Blood Magic 400 times."
+    },
+    {
+        "type": "item",
+        "id": "echo_shard",
+        "name": "Echo Shard",
+        "description": "+12% chance to spawn an extra XP shard when killing an enemy.",
+        "rarity": "rare",
+        "image": "images/items/echo_shard.png",
+        "unlock": "Upgrade XP Tome to Level 8."
+    },
+    {
+        "type": "item",
+        "id": "moldy_gloves",
+        "name": "Moldy Gloves",
+        "description": "Create a moldy poison cloud upon hitting an enemy. The gloves are covered in a moist, moldy and slimy texture.",
+        "rarity": "rare",
+        "image": "images/items/moldy_gloves.png",
+        "unlock": "Use a Microwave to duplicate Moldy Cheese 3 times in a row."
+    },
+    {
+        "type": "item",
+        "id": "brass_knuckles",
+        "name": "Brass Knuckles",
+        "description": "Deal +25% more damage to nearby enemies.",
+        "rarity": "rare",
+        "image": "images/items/brass_knuckles.png",
+        "unlock": "Kill 5,000 enemies with the Sword."
+    },
+    {
+        "type": "item",
+        "id": "idle_juice",
+        "name": "Idle Juice",
+        "description": "The longer you stand still, the more damage you do. Max +100% Damage.",
+        "rarity": "rare",
+        "image": "images/items/idle_juice.png",
+        "unlock": "Kill 500 enemies while standing still."
+    },
+    {
+        "type": "item",
+        "id": "leeching_crystal",
+        "name": "Leeching Crystal",
+        "description": "+50 Max HP at the cost of -50% HP Regen.",
+        "rarity": "rare",
+        "image": "images/items/leeching_crystal.png",
+        "unlock": "Upgrade Regen Tome to Level 8."
+    },
+    {
+        "type": "item",
+        "id": "pumpkin",
+        "name": "Pumpkin",
+        "description": "Spawn +8 extra pots for future stages and increase their reward by 18%.",
+        "rarity": "rare",
+        "image": "images/items/pumpkin.png",
+        "unlock": "As Roberto, break every pumpkim on Graveyard."
+    },
+    {
+        "type": "item",
+        "id": "spiky_shield",
+        "name": "Spiky Shield",
+        "description": "Gain +2 Thorns for every 1% Armor. Also gain 10% Armor.",
+        "rarity": "epic",
+        "image": "images/items/spiky_shield.png"
+    },
+    {
+        "type": "item",
+        "id": "scarf",
+        "name": "Scarf",
+        "description": "Deal 50% more Damage while airborne.",
+        "rarity": "epic",
+        "image": "images/items/scarf.png"
+    },
+    {
+        "type": "item",
+        "id": "slurp_gloves",
+        "name": "Slurp Gloves",
+        "description": "Cast blood magic upon hitting an enemy, damaging nearby enemies and healing you for 7.5%. (9s cooldown)",
+        "rarity": "epic",
+        "image": "images/items/slurp_gloves.png"
+    },
+    {
+        "type": "item",
+        "id": "credit_card_green",
+        "name": "Credit Card (Green)",
+        "description": "Increase Luck by +2% when opening a chest. Also increase Chest price by +10%.",
+        "rarity": "epic",
+        "image": "images/items/credit_card_green.png"
+    },
+    {
+        "type": "item",
+        "id": "mirror",
+        "name": "Mirror",
+        "description": "Reflect any incoming damage back to the attacker and gain a short invulnerability.",
+        "rarity": "epic",
+        "image": "images/items/mirror.png"
+    },
+    {
+        "type": "item",
+        "id": "beefy_ring",
+        "name": "Beefy Ring",
+        "description": "Increase Damage by +20% per 100 Max HP.",
+        "rarity": "epic",
+        "image": "images/items/beefy_ring.png"
+    },
+    {
+        "type": "item",
+        "id": "turbo_skates",
+        "name": "Turbo Skates",
+        "description": "The faster you move, the more Attack Speed you gain. Max 40% per stack.",
+        "rarity": "epic",
+        "image": "images/items/turbo_skates.png",
+        "unlock": "Upgrade both Cooldown Tome and Agility Tome to Level 5 in the same run."
+    },
+    {
+        "type": "item",
+        "id": "toxic_barrel",
+        "name": "Toxic Barrel",
+        "description": "Release toxic waste upong taking damage, poisoning all nearby enemies.",
+        "rarity": "epic",
+        "image": "images/items/toxic_barrel.png",
+        "unlock": "Kill 2,000 enemies using Poison damage."
+    },
+    {
+        "type": "item",
+        "id": "slutty_cannon",
+        "name": "Slutty Cannon",
+        "description": "20% chance to spawn homing missiles upon killing an enemy.",
+        "rarity": "epic",
+        "image": "images/items/slutty_cannon.png",
+        "unlock": "Kill 5,000 enemies with the Slutty Rocket."
+    },
+    {
+        "type": "item",
+        "id": "shattered_knowledge",
+        "name": "Shattered Knowledge",
+        "description": "XP shards now slice through enemies, dealing damage as they pass. Knowledge really hurts.",
+        "rarity": "epic",
+        "image": "images/items/shattered_knowledge.png",
+        "unlock": "Upgrade Attraction Tome to Level 8."
+    },
+    {
+        "type": "item",
+        "id": "quins_mask",
+        "name": "Quin's Mask",
+        "description": "Thorns damage has a 50% chance to explode and damage nearby enemies.",
+        "rarity": "epic",
+        "image": "images/items/quins_mask.png",
+        "unlock": "As Athena, land the killing blow on a Stage Boss with Aegis."
+    },
+    {
+        "type": "item",
+        "id": "demonic_soul",
+        "name": "Demonic Soul",
+        "description": "Increase Damage by 0.1% per kill. (max 100%)",
+        "rarity": "epic",
+        "image": "images/items/demonic_soul.png",
+        "unlock": "Reach Level 30 as Calcium."
+    },
+    {
+        "type": "item",
+        "id": "bob",
+        "name": "Bob (Dead)",
+        "description": "For every 14 units moved, summon Bob. (he's dead)",
+        "rarity": "epic",
+        "image": "images/items/bob.png",
+        "unlock": "Survive the Final Swarm for 2 minutes."
+    },
+    {
+        "type": "item",
+        "id": "gas_mask",
+        "name": "Gas Mask",
+        "description": "Gain Armor and Overheal for every enemy infected with poison.",
+        "rarity": "epic",
+        "image": "images/items/gas_mask.png",
+        "unlock": "Kill 5,000 enemies using Amog."
+    },
+    {
+        "type": "item",
+        "id": "gamer_goggles",
+        "name": "Gamer Goggles",
+        "description": "Increase Damage the lower your HP is. chat im locking in.",
+        "rarity": "epic",
+        "image": "images/items/gamer_goggles.png",
+        "unlock": "Defeat a Stage Boss with less than 10% HP."
+    },
+    {
+        "type": "item",
+        "id": "eagle_claw",
+        "name": "Eagle Claw",
+        "description": "Deal 66% more Damage to airborne enemies. 8% chance to knock enemy into the air.",
+        "rarity": "epic",
+        "image": "images/items/eagle_claw.png",
+        "unlock": "Kill 10,000 enemies as Birdo."
+    },
+    {
+        "type": "item",
+        "id": "grandmas_secret_tonic",
+        "name": "Grandma's Secret Tonic",
+        "description": "Crits have a 50% chance to explode and damage nearby enemies for 50% damage.",
+        "rarity": "epic",
+        "image": "images/items/grandmas_secret_tonic.png",
+        "unlock": "Kill 3,000 enemies with the Sniper Rifle."
+    },
+    {
+        "type": "item",
+        "id": "cursed_grabbies",
+        "name": "Cursed Grabbies",
+        "description": "+10% Difficulty, 0.8x Max HP. 5% chaance to cast cursed magic upon hitting an enemy, damaging nearby enemies.",
+        "rarity": "epic",
+        "image": "images/items/cursed_grabbies.png",
+        "unlock": "Get the Cursed Tome to Level 10."
+    },
+    {
+        "type": "item",
+        "id": "kevin",
+        "name": "Kevin",
+        "description": "25% chance to punch you on hit (cannot kill you). Triggers on hit effects. Kevin really hates you.",
+        "rarity": "epic",
+        "image": "images/items/kevin.png",
+        "unlock": "Obtain 3 Leeching Crystal items in one run."
+    },
+    {
+        "type": "item",
+        "id": "bobs_light",
+        "name": "Bob's Light",
+        "description": "A sphere of light explodes every 45s, killing all nearby enemies. Stacks reduce cooldown by 3s and increases radius by 10m.",
+        "rarity": "epic",
+        "image": "images/items/bobs_light.png",
+        "unlock": "Kill Big Bob on Graveyard using the damage from a lamp as the killing blow."
+    },
+    {
+        "type": "item",
+        "id": "power_gloves",
+        "name": "Power Gloves",
+        "description": "8% chance upon hitting an enemy to create a giant blast, damaging and knocking away enemies.",
+        "rarity": "legendary",
+        "image": "images/items/power_gloves.png"
+    },
+    {
+        "type": "item",
+        "id": "spicy_meatball",
+        "name": "Spicy Meatball",
+        "description": "Attacks have a 25% chance to explode, dealing 65% Damage to surrounding enemies.",
+        "rarity": "legendary",
+        "image": "images/items/spicy_meatball.png"
+    },
+    {
+        "type": "item",
+        "id": "ice_cube",
+        "name": "Ice Cube",
+        "description": "20% chance to inflict ice damage when hitting enemies. Ice can now freeze enemies.",
+        "rarity": "legendary",
+        "image": "images/items/ice_cube.png"
+    },
+    {
+        "type": "item",
+        "id": "giant_fork",
+        "name": "Giant Fork",
+        "description": "Crits have a 14% chance to become Megacrits. Gain +15% Crit Chance and increase Megacrit damage by 15% per stack.",
+        "rarity": "legendary",
+        "image": "images/items/giant_fork.png"
+    },
+    {
+        "type": "item",
+        "id": "za_warudo",
+        "name": "Za Warudo",
+        "description": "Upong taking damage that would kill you, freeze time. Breaks after one use.",
+        "rarity": "legendary",
+        "image": "images/items/za_warudo.png"
+    },
+    {
+        "type": "item",
+        "id": "big_bonk",
+        "name": "Big Bonk",
+        "description": "2% chance to BONK an enemy, dealing 20x Damage.",
+        "rarity": "legendary",
+        "image": "images/items/big_bonk.png"
+    },
+    {
+        "type": "item",
+        "id": "overpowered_lamp",
+        "name": "Overpowered Lamp",
+        "description": "+1 chance to proc on hit effects.",
+        "rarity": "legendary",
+        "image": "images/items/overpowered_lamp.png"
+    },
+    {
+        "type": "item",
+        "id": "dragonfire",
+        "name": "Dragonfire",
+        "description": "15% chance to summon dragonfire when hitting enemies. Fire damage can now apply burn.",
+        "rarity": "legendary",
+        "image": "images/items/dragonfire.png",
+        "unlock": "Kill 4,000 enemies with fire damage."
+    },
+    {
+        "type": "item",
+        "id": "chonkplate",
+        "name": "Chonkplate",
+        "description": "Healing above Max HP allows you to Overheal by 75%. Also gives 20% Lifesteal.",
+        "rarity": "legendary",
+        "image": "images/items/chonkplate.png",
+        "unlock": "Reach 500 Max HP."
+    },
+    {
+        "type": "item",
+        "id": "holy_book",
+        "name": "Holy Book",
+        "description": "100 Max HP, 50 HP Regen. Healing will now radiate damage to nearby enemies.",
+        "rarity": "legendary",
+        "image": "images/items/holy_book.png",
+        "unlock": "Kill the first Stage Boss without taking damage."
+    },
+    {
+        "type": "item",
+        "id": "sucky_magnet",
+        "name": "Sucky Magnet",
+        "description": "Periodically drag in all XP around you.",
+        "rarity": "legendary",
+        "image": "images/items/sucky_magnet.png",
+        "unlock": "Complete every Charge Shrine on a map."
+    },
+    {
+        "type": "item",
+        "id": "lightning_orb",
+        "name": "Lightning Orb",
+        "description": "25% chance to summon lightning when hitting enemies. Lightning can now stun enemies.",
+        "rarity": "legendary",
+        "image": "images/items/lightning_orb.png",
+        "unlock": "Kill 3,000 enemies with lightning damage."
+    },
+    {
+        "type": "item",
+        "id": "speed_boi",
+        "name": "Speed Boi",
+        "description": "Upon taking damage below 50% Max HP, slow down time and deal 2x damage.",
+        "rarity": "legendary",
+        "image": "images/items/speed_boi.png",
+        "unlock": "Complete a stage with at least 2 Boss Curses."
+    },
+    {
+        "type": "item",
+        "id": "energy_core",
+        "name": "Energy Core",
+        "description": "Shoot energy orbs at enemies.",
+        "rarity": "legendary",
+        "image": "images/items/energy_core.png",
+        "unlock": "Defeat a Final Boss 2 times."
+    },
+    {
+        "type": "item",
+        "id": "anvil",
+        "name": "Anvil",
+        "description": "Weapon Upgrades can now have +1 stats",
+        "rarity": "legendary",
+        "image": "images/items/anvil.png",
+        "unlock": "Complete 3 Challenges."
+    },
+    {
+        "type": "item",
+        "id": "soul_harvester",
+        "name": "Soul Harvester",
+        "description": "Killing an enemy summons 2 homing souls.",
+        "rarity": "legendary",
+        "image": "images/items/soul_harvester.png",
+        "unlock": "Survive the Final Swarm for 6 minutes."
+    },
+    {
+        "type": "item",
+        "id": "joes_dagger",
+        "name": "Joe's Dagger",
+        "description": "1% chance to Execute an enemy. Performing Execute increases Damage by 1%.",
+        "rarity": "legendary",
+        "image": "images/items/joes_dagger.png",
+        "unlock": "Kill 10,000 enemies using the Dexecutioner."
+    },
+    {
+        "type": "item",
+        "id": "bloody_cleaver",
+        "name": "Bloody Cleaver",
+        "description": "Lifesteal now triggers Bloodmark stacks. Also gain +50% chance to apply Bloodmark.",
+        "rarity": "legendary",
+        "image": "images/items/bloody_cleaver.png",
+        "unlock": "Reach Level 50 as Vlad."
+    },
+    {
+        "type": "item",
+        "id": "snek",
+        "name": "Snek",
+        "description": "Apply +4 stacks of poison and get a 5% chance to instantly burst all the poison damage when hitting an enemy.",
+        "rarity": "legendary",
+        "image": "images/items/snek.png",
+        "unlock": "Find in the crypt on Graveyard."
+    },
+    {
+        "type": "item",
+        "id": "pot",
+        "name": "Pot (stainless steel)",
+        "description": "+10 max levels for all weapons. Gives one less max level per stack, for a minimum of 2 at 9 stacks.",
+        "rarity": "legendary",
+        "image": "images/items/pot.png",
+        "unlock": "Open every chest and pot in the first crypt on Graveyard."
+    },
+    {
+        "type": "item",
+        "id": "wizards_hat",
+        "name": "Wizard's Hat",
+        "description": "+10 max levels for all tomes. Gives one less max level per stack, for a minimum of 2 at 9 stacks.",
+        "rarity": "legendary",
+        "image": "images/items/wizards_hat.png",
+        "unlock": "As Vlad, use Pot (stainless steel) to upgrade any weapon above the max level of 40."
+    },
+    {
+        "type": "item",
+        "id": "golden_ring",
+        "name": "Golden Ring",
+        "description": "It doesn't seem to do anything...",
+        "rarity": "legendary",
+        "image": "images/items/golden_ring.png"
+    }
+]
